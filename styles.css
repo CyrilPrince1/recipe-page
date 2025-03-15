@@ -111,3 +111,36 @@ span#pinfo {
   margin-left: 20px;
   margin-bottom: 10px;
 }
+
+.instructions {
+  margin-top: 15px;
+  margin-left: 1px;
+  padding: 0px 20px 25px 20px;
+}
+
+.instructions li::marker {
+  font-size: large;
+  font-weight: 600;
+}
+
+span#ihead {
+  font-size: 17px;
+  font-weight: 700;
+}
+span#i-info {
+  font-size: 16px;
+}
+
+.Nutrition-paragraph {
+  margin-top: 20px;
+}
+
+#table-head {
+  padding-left: 20px;
+}
+
+#table-data {
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+  font-weight: 700;
+}
