@@ -149,3 +149,22 @@ footer {
   margin-bottom: 50px;
   margin-top: -60px;
 }
+
+@media (max-width: 375px) {
+  main {
+    width: 100%;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .omelette-img {
+    width: 100%;
+    border-radius: 0px;
+  }
+  div.container {
+    padding: 0 25px;
+  }
+  footer {
+    display: none;
+  }
+}
